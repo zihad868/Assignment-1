@@ -1,0 +1,166 @@
+body{
+    /* background-color: #552b0d; */
+}
+
+/* nav related field */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+
+
+.btn-primary{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 30px;
+    font-weight: 700px;
+    padding: 10px 35px;
+}
+
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../resources/bannerimage.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: cover, top left;
+    width: 1320px;
+    height: 600px;
+}
+
+.banner{
+    align-items: center;
+}
+
+.banner-content{
+    font-family: Merriweather;
+    text-align: center;
+    
+}
+
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 150px 0px 0px 0px;
+}
+
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* main Section */
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+
+/* about section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.social-link{
+    margin-right: 20px;
+}
+
+/* skill related section */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
+}
+
+.skill{
+    padding: 30px;
+}
+
+
+/* resume section */
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-col-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title, .resume-item-title-instituation{
+    color: #757575;
+}
+
+
+.resume-container hr{
+    margin: 30px;
+}
+
+
+.download-cv{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}

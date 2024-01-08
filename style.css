@@ -124,3 +124,7 @@ p {
 .banner title {
   display: inline;
 }
+
+.banner{
+  height: auto;
+}

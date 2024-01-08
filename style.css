@@ -15,6 +15,7 @@
     url("./resources/bannerimage.png");
   background-size: cover;
   background-position: center;
+  margin-bottom: 100px;
 }
 
 .info {
@@ -24,19 +25,28 @@
   margin-top: 20%;
 }
 
-.info h2 {
+h2 {
   color: #fff;
   font-family: lato;
   font-size: 30px;
 }
 
-.info h1 {
+h1 {
   color: #fff;
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .off-day {
@@ -74,4 +84,43 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.profile-pic {
+  padding-bottom: 50px;
+}
+
+.banner {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./resources/vectorrr.png");
+  background-repeat: no-repeat;
+  width: 100% 100%;
+  background-size: cover;
+}
+
+.banner-section {
+  padding-top: 100px;
+}
+
+.banner-content {
+  display: flex;
+  padding-top: 50px;
+}
+
+.banner h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.banner p {
+  max-width: 800px;
+}
+
+.banner title {
+  display: inline;
 }

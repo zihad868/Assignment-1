@@ -285,6 +285,7 @@ button {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .portfolio h2 {
@@ -294,6 +295,7 @@ button {
   font-weight: 900;
   line-height: normal;
   text-transform: capitalize;
+  margin-bottom: 15px
 }
 
 .portfolio p {
@@ -302,4 +304,24 @@ button {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px; 
+  margin-bottom: 24px
 }
+
+#portfolio-img .first-container .second-container{
+  display: flex;
+}
+
+#portfolio-img .first-container img{
+  width: 470px;
+  height: 470px;
+}
+
+#portfolio-img .second-container img{
+  width: 470px;
+  height: 470px;
+}
+
+#portfolio-img .img-3, .img-4, .img-6, .img-7{
+  margin-right: 35px;
+}
+

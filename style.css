@@ -35,7 +35,7 @@ h1 {
   color: #fff;
   text-align: center;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 130px;
   font-weight: 900;
   line-height: 95px;
 }
@@ -98,33 +98,55 @@ p {
   background-size: cover;
 }
 
-.banner-section {
-  padding-top: 100px;
-}
-
 .banner-content {
   display: flex;
-  padding-top: 50px;
 }
 
-.banner h1 {
+.banner-section {
+  padding-top: 80px;
+}
+
+.banner .banner-title h1 {
   color: #fff;
   font-family: Merriweather;
-  font-size: 64px;
-  font-style: normal;
+  font-size: 120px;
   font-weight: 900;
-  line-height: 88px; /* 137.5% */
+  line-height: 88px;
   letter-spacing: 7.04px;
+  padding-bottom: 24px;
+  text-align: left;
+  margin: 128px auto 24px 128px;
 }
 
-.banner p {
-  max-width: 800px;
+.banner .banner-title p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0px auto 24px 128px;
 }
 
-.banner title {
-  display: inline;
+.banner .banner-title h6 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 200px;
 }
 
-.banner{
-  height: auto;
+.banner .banner-content img {
+  display: flex;
+  width: 300px;
+  height: 500px;
+  padding: 0.008px 0px 0px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 100px 200px 20px 0px;
 }

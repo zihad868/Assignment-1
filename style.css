@@ -249,7 +249,7 @@ button {
   margin-top: 40px;
 }
 
-.discount{
+.discount {
   position: relative;
 }
 
@@ -264,7 +264,7 @@ button {
   top: 75px;
 }
 
-.discount-img{
+.discount-img {
   width: 210px;
   height: 210px;
   margin: 200px 0px 0px 975px;
@@ -276,6 +276,30 @@ button {
   margin-top: 28px;
 }
 
-.discount > img{
-  align-items: center;
+.portfolio {
+  margin-top: 300px;
+}
+
+.portfolio h6 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.portfolio p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; 
 }

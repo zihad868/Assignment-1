@@ -212,7 +212,6 @@ button {
 .holi-day {
   background: #fff;
   display: inline;
-  margin-bottom: 0;
 }
 
 .holi-day .holi-text {
@@ -239,36 +238,44 @@ button {
   padding-top: 50px;
 }
 
+/* Image section */
 
-
-.holi-day .holiday-off{
+.holi-day .holiday-off {
   background: url("./resources/rectangle1.png");
-    width: 100%;
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    margin-top: 0;
+  width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  margin-top: 40px;
 }
 
+.discount{
+  position: relative;
+}
 
 .discount .discount-container {
   display: flex;
 }
 
-.discount-img {
-  color: #FFF;
-
-font-family: Inter;
-font-size: 73.015px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.gift-box {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 75px;
 }
 
+.discount-img{
+  width: 210px;
+  height: 210px;
+  margin: 200px 0px 0px 975px;
+}
 
-.footer-rec {
-  border-radius: 16px 0px 16px 16px;
-  background: #f00;
-  width: 1250px;
+.footer-img {
+  width: 1500px;
   height: 200px;
+  margin-top: 28px;
+}
+
+.discount > img{
+  align-items: center;
 }
